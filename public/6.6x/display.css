@@ -1,0 +1,217 @@
+/*---------------------
+Display Flex
+-----------------------*/
+.flex{
+  display: flex;
+}
+
+.flex_center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex_center_full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex_center_vertical {
+  display: flex;
+  align-items: center;
+}
+
+.flex_left {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.fd_row{
+  flex-direction: row;
+}
+
+.fd_col{
+  flex-direction: column;
+}
+
+.fd_rowr{
+  flex-direction: row-reverse;
+}
+
+.fd_colr{
+  flex-direction: column-reverse;
+}
+
+.fw_on{
+  flex-wrap: wrap;
+}
+
+.fw_off{
+  flex-wrap: nowrap;
+}
+
+.fw_reverse{
+  flex-wrap: wrap-reverse;
+}
+
+.jc_start {
+	justify-content: flex-start;
+}
+
+.jc_end {
+	justify-content: flex-end;
+}
+
+.jc_center {
+	justify-content: center;
+}
+
+.jc_sa {
+	justify-content: space-around;
+}
+
+.jc_sb {
+	justify-content: space-between;
+}
+
+.jc_se {
+	justify-content: space-evenly;
+}
+
+/*---------------------
+Display Dynamic
+-----------------------*/
+
+@media screen and (max-width: 1087px) {
+  .dynamic_size {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1087px) {
+  .dynamic_size {
+    width: 49.85%;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .dynamic_fw {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1087px) {
+  .dynamic_fw {
+    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (max-width: 1087px) {
+  .dynamic_fd {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1087px) {
+  .dynamic_fd {
+    flex-direction: row;
+  }
+}
+
+/*---------------------
+Display Float
+-----------------------*/
+.float{
+  float: left;
+}
+
+.right{
+	float: right;
+}
+
+/*---------------------
+Centrage
+-----------------------*/
+.centrage {
+  text-align: center;
+  align-content: center;
+}
+
+.centragebox {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*---------------------
+Ombres
+-----------------------*/
+.shadow{
+  text-shadow: 0.5px 0 0 #000, -0.5px 0 0 #000, 0 0.5px 0 #000, 0 -0.5px 0 #000, 0.5px 0.5px #000, -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000;
+}
+
+/*---------------------
+Titre
+-----------------------*/
+.titre{
+	padding: 0px;
+  margin: 0px;
+	margin-bottom: 40px;
+	width: 100%;
+  height: 50px;
+  padding-top: 5px;
+  font-size: 150%;
+}
+
+.titre2{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 104px;
+	width: 100%;
+	height: 35px;
+}
+
+.titre3{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	height: 35px;
+}
+
+.titre4{
+	padding: 0px;
+  margin: 0px;
+	width: 100%;
+  height: 50px;
+}
+
+.support{
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+/*---------------------
+Infobulle
+-----------------------*/
+.infobulle {
+  position: relative;  /* les .infobulle deviennent référents */
+  cursor: help;
+}
+
+/* on génère un élément :after lors du survol et du focus :*/
+
+.infobulle:hover::after,
+.infobulle:focus::after {
+  content: attr(aria-label);  /* on affiche aria-label */
+  position: absolute;
+  top: -2.4em;
+  left: 50%;
+  transform: translateX(-50%); /* on centre horizontalement  */
+  z-index: 1; /* pour s'afficher au dessus des éléments en position relative */
+  white-space: nowrap;  /* on interdit le retour à la ligne */
+}
+
+.pointer{
+	cursor: pointer;
+}

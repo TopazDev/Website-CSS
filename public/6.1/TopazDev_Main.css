@@ -1,0 +1,226 @@
+/*--------- Couleurs ----------
+-------------------------------
+#62ac19   Concrete lime
+#4b5e25   Concrete green
+#2f3195   Concrete blue
+#167b8c   Concrete cyan
+#258dc9   Concrete light blue
+#d1d7d8   Concrete white
+#922222   Concrete red
+#e36501   Concrete orange
+#f2b117   Concrete yellow
+#6821a0   Concrete purple
+#ac31a3   Concrete magenta
+#633d20   Concrete brown
+-------------------------------
+#f0c300   Menu blé
+#d32300   Menu rouge
+#008ed7   Menu bleu
+#41a55a   Menu vert
+#27292f   Menu dark
+#93278F   Menu violet
+-------------------------------
+*/
+
+.image{
+  width: 30%;
+  padding: 10px;
+}
+
+.image2{
+  width: 700px;
+  padding: 20px;
+}
+
+.centrage {
+  text-align: center;
+  align-content: center;
+}
+
+#image{
+  padding: 20px;
+  width: 60%;
+}
+
+.minecraft,
+.mc{
+  float: left;
+	padding: 0px;
+  margin: 0px;
+	width: 100%;
+}
+
+.background_dark{
+  background: #27292f;
+}
+
+.minecraft{
+  height: 50px;
+	background: #62ac19;
+}
+
+.mc{
+  height: 60px;
+}
+
+.lego{
+  float: left;
+	padding: 0px;
+  margin: 0px;
+	background: #922222;
+	width: 100%;
+  height: 50px;
+}
+
+.titre{
+  float: left;
+	padding: 0px;
+  margin: 0px;
+	width: 100%;
+  height: 50px;
+}
+
+.float{
+  float: left;
+}
+
+h1, h2{
+  text-align: center;
+  vertical-align: middle;
+  text-shadow: 0.5px 0 0 #000, -0.5px 0 0 #000, 0 0.5px 0 #000, 0 -0.5px 0 #000, 0.5px 0.5px #000, -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000;
+  color: white;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+.pimage{
+    vertical-align: middle;
+    float: left;
+    width: 500px;
+    padding: 80px;
+}
+
+.support{
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.white,
+p{
+  color: white;
+}
+
+.lime{
+  color: #62ac19;
+}
+
+.red{
+  color: #d32300;
+}
+
+.ble{
+  color: #f0c300;
+}
+
+.blue{
+  color: #008ed7;
+}
+
+.paragraphe,
+h3{
+  margin: 25px 100px 10px 100px; /*Top - Right - Bottom - Left*/
+  margin-top: 50px;
+}
+
+.paragraphe2{
+  margin: 50px 0px 10px 0px; /*Top - Right - Bottom - Left*/
+  width: 500px;
+}
+
+.paragraphe3{
+  margin: 25px 50px 25px 50px; /*Top - Right - Bottom - Left*/
+}
+
+.paragraphe4{
+  display: table-cell; /* comportement visuel de cellule */
+  vertical-align: middle;
+}
+
+/*========== Background ==========*/
+
+.background_lime{
+  background-color: #62ac19;
+}
+
+.background_red{
+  background-color: #922222;
+}
+
+.background_blue{
+  background-color: #008ed7;
+}
+
+.background_darkblue{
+  background-color: #2f3195;
+}
+
+.background_ble{
+  background-color: #f0c300;
+}
+
+.background_cyan{
+  background-color: #167b8c;
+}
+
+.background_white{
+  background-color: white;
+}
+
+.background_orange{
+  background-color: #e36501;
+}
+
+.background_vert{
+  background-color: #41a55a;
+}
+
+/*========== Infobulle ==========*/
+
+.infobulle {
+  position: relative;  /* les .infobulle deviennent référents */
+  cursor: help;
+}
+
+/* on génère un élément :after lors du survol et du focus :*/
+
+.infobulle:hover::after,
+.infobulle:focus::after {
+  content: attr(aria-label);  /* on affiche aria-label */
+  position: absolute;
+  top: -2.4em;
+  left: 50%;
+  transform: translateX(-50%); /* on centre horizontalement  */
+  z-index: 1; /* pour s'afficher au dessus des éléments en position relative */
+  white-space: nowrap;  /* on interdit le retour à la ligne */
+}
+
+
+/* unvisited link */
+.lien a:link {
+  color: green;
+}
+
+/* visited link */
+.lien a:visited {
+  color: #ac31a3;
+}
+
+/* mouse over link */
+.lien a:hover {
+  color: #f2b117;
+}
+
+/* selected link */
+.lien a:active {
+  color: blue;
+}

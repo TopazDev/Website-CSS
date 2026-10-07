@@ -1,0 +1,185 @@
+.rolesDisp1 ::-webkit-scrollbar {
+  width: 0px;
+}
+.bWwAuh {
+  display: flex;
+  flex-direction: column;
+}
+.fDSFXh {
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 6px;
+  min-height: 50px;
+}
+.kufVlK {
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.gMcIWw {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border: 1px solid;
+  border-radius: 22px;
+  height: 22px;
+  max-width: 200px;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 6px;
+  padding: 4px;
+}
+.gMcIWw button {
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  width: 12px;
+  min-width: 12px;
+  height: 12px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-weight: 300;
+  padding: 0px;
+}
+.delrole {
+  appearance: auto;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: white;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: flex;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+  box-sizing: border-box;
+  margin: 0em;
+  padding: 0px 5px;
+  border-style: none;
+  border-radius: 50px;
+  font-family: Poppins;
+  font-size: 11px;
+  width: 16px;
+  height: 16px;
+  text-transform: uppercase;
+}
+.gMcIWw button img {
+  width: 6px;
+  height: 6px;
+}
+.eejarA {
+  position: relative;
+}
+.iboXtn {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 0px;
+  cursor: pointer;
+  border-radius: 50%;
+  background: none;
+  border: 1px solid rgb(102, 102, 102);
+  color: rgb(204, 204, 204);
+  font-weight: 600;
+  margin: 6px;
+}
+.rolesDisp0 {
+  position: absolute;
+  z-index: 5000;
+  border-radius: 16px;
+  visibility: hidden;
+  margin: 10px;
+}
+.rolesDisp1 {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 150px;
+  border-radius: 16px;
+}
+.rolesDisp1 header {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  background: rgb(26, 26, 26);
+  border-radius: 4px 4px 0px 0px;
+}
+.rolesDisp1 input {
+  background: none;
+  outline: none;
+  border: 0px;
+  width: 100%;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+.rolei input {
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: 1px 2px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+  border-radius: 2px;
+}
+.rolei input[type="text" i] {
+  padding: 1px 2px;
+}
+.rolesDisp2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  overflow: hidden scroll;
+}
+.rolelistitem {
+  padding: 0px 20px;
+  min-height: 44px;
+  height: 44px;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+}

@@ -1,0 +1,148 @@
+/*=====================
+===== Tableau N°1 =====
+=======================*/
+
+#tableau
+{
+  padding: 20px;
+  margin: 10px;
+}
+
+#tableau table
+{
+  border-collapse: collapse;
+  width: 100%;
+	margin-top: 40px;
+}
+
+#tableau td
+{
+  text-align: left;
+  padding: 8px;
+}
+#tableau tr
+{
+  background-color: #f2f2f2
+}
+
+#tableau th
+{
+  background-color: #62ac19; //e44d26;
+  color: white;
+  text-align: left;
+  padding: 8px;
+}
+
+/*=====================
+===== Tableau N°2 =====
+=======================*/
+
+#tableau2
+{
+  padding: 20px;
+  margin: 10px;
+}
+
+#tableau2 table
+{
+  border-collapse: collapse;
+  width: 100%;
+	margin-top: 40px;
+}
+
+#tableau2 td
+{
+  text-align: left;
+  padding: 8px;
+}
+
+#tableau2 th
+{
+  color: white;
+  text-align: left;
+  padding: 8px;
+}
+
+/*=====================
+===== Tableau N°3 =====
+=======================*/
+
+#tableau3
+{
+  padding: 20px;
+  margin: 10px;
+}
+
+#tableau3 table
+{
+  border-collapse: collapse;
+  width: 100%;
+	margin-top: 40px;
+}
+
+#tableau3 td
+{
+  text-align: left;
+  padding: 8px;
+}
+#tableau3 tr
+{
+  background-color: #f2f2f2
+}
+
+#tableau3 th
+{
+  text-align: left;
+  padding: 8px;
+}
+
+/*=================
+===== Galerie =====
+===================*/
+#thumbs {
+  list-style: none outside none; /* On supprime le style de la liste par défaut */
+  margin: 0 auto; /* La galerie est centrée horizontalement */
+  padding: 0;
+}
+
+#thumbs li {
+  margin: 0;
+  padding: 5px;
+  position: relative;
+  width: 250px;
+  z-index: 10;
+}
+
+#thumbs li:hover {
+  z-index: 100; /* Nécessaire pour Firefox */
+}
+
+#thumbs li img {
+  border: 1px solid #fff;
+  z-index: 100;
+  transition: transform 0.25s ease-in-out;
+  -moz-transition: -moz-transform 0.25s ease-in-out;
+  -o-transition: -o-transform 0.25s ease-in-out;
+  -webkit-transition: -webkit-transform 0.25s ease-in-out;
+  transform: scale(1); /* On réduit l'image à 75% */
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transform: scale(1);
+}
+
+#thumbs:hover li img {
+  opacity: 0.5; /* Au survol de la galerie, toute les images auront une opacité de 50% */
+}
+
+#thumbs li:hover img {
+  opacity: 1; /* L'image survolée aura une opacité de 100% */
+  z-index: 100;
+  transform: scale(2); /* On affiche l'image à sa taille normale */
+  -moz-transform: scale(2);
+  -o-transform: scale(2);
+  -webkit-transform: scale(2);
+  box-shadow: 1px 1px 10px #000; /* On ajoute une ombre */
+  -moz-box-shadow: 1px 1px 10px #000;
+  -o-box-shadow: 1px 1px 10px #000;
+  -webkit-box-shadow: 1px 1px 10px #000;
+}

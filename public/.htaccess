@@ -1,0 +1,10 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+# Les fichiers CSS (v7/main.css, ...) sont servis tels quels
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Tout le reste (/d/..., /v/..., /erreur-404) est géré par React
+RewriteRule ^ index.html [L]

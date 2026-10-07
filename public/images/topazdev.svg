@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="819.227" height="164.639" viewBox="0 0 826 166">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 150px;
+        text-anchor: middle;
+        fill: #2e3144;
+        font-family: "Roboto Flex";
+        font-weight: 600;
+      }
+
+      .cls-2 {
+        font-size: 125px;
+        font-weight: 200;
+      }
+    </style>
+  </defs>
+  <text id="TOPAZDEV" class="cls-1" x="416.292" y="136.243"><tspan x="416.292">TOPAZ<tspan class="cls-2">DEV</tspan></tspan></text>
+</svg>

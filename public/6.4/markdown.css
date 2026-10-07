@@ -1,0 +1,72 @@
+.markdown section{
+  color: black;
+}
+
+
+.markdown h1{
+  color: black;
+  text-align: left;
+  text-shadow: 0 0 0 #000;
+  margin: 15px 25px;
+}
+
+
+.markdown h2{
+  color: black;
+  text-align: left;
+  text-shadow: 0 0 0 #000;
+  margin: 15px 25px;
+}
+
+
+.markdown h3{
+  color: black;
+  text-align: left;
+  text-shadow: 0 0 0 #000;
+  margin: 15px 25px;
+}
+
+
+.markdown h4{
+  color: black;
+  text-align: left;
+  text-shadow: 0 0 0 #000;
+  margin: 15px 25px;
+}
+
+
+.markdown h5{
+  color: black;
+  text-align: left;
+  text-shadow: 0 0 0 #000;
+  margin: 15px 25px;
+}
+
+
+.markdown p{
+  color: black;
+  text-align: left;
+  margin: 0 25px;
+}
+
+
+.markdown ul{
+  color: black;
+  text-align: left;
+  margin: 10px 10px;
+}
+
+
+.markdown ol{
+  color: black;
+  text-align: left;
+  margin: 10px 20px;
+}
+
+
+.markdown code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
+}

@@ -1,0 +1,97 @@
+/*=====================
+===== Tableau N°1 =====
+=======================*/
+
+#tableau
+{
+  padding: 20px;
+  margin: 10px;
+}
+
+#tableau table
+{
+  border-collapse: collapse;
+  width: 100%;
+	margin-top: 40px;
+}
+
+#tableau td
+{
+  text-align: left;
+  padding: 8px;
+}
+#tableau tr
+{
+  background-color: #f2f2f2
+}
+
+#tableau th
+{
+  background-color: #62ac19; //e44d26;
+  color: white;
+  text-align: left;
+  padding: 8px;
+}
+
+/*=====================
+===== Tableau N°2 =====
+=======================*/
+
+#tableau2
+{
+  padding: 20px;
+  margin: 10px;
+}
+
+#tableau2 table
+{
+  border-collapse: collapse;
+  width: 100%;
+	margin-top: 40px;
+}
+
+#tableau2 td
+{
+  text-align: left;
+  padding: 8px;
+}
+
+#tableau2 th
+{
+  color: white;
+  text-align: left;
+  padding: 8px;
+}
+
+/*=====================
+===== Tableau N°3 =====
+=======================*/
+
+#tableau3
+{
+  padding: 20px;
+  margin: 10px;
+}
+
+#tableau3 table
+{
+  border-collapse: collapse;
+  width: 100%;
+	margin-top: 40px;
+}
+
+#tableau3 td
+{
+  text-align: left;
+  padding: 8px;
+}
+#tableau3 tr
+{
+  background-color: #f2f2f2
+}
+
+#tableau3 th
+{
+  text-align: left;
+  padding: 8px;
+}

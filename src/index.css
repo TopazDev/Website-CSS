@@ -1,0 +1,73 @@
+@import 'tailwindcss';
+
+/* Ne pas chercher de classes dans les CSS servis (Bulma, Font Awesome...) */
+@source not '../public';
+
+/* daisyUI : uniquement le thème TopazDev ci-dessous (pas de thèmes intégrés) */
+@plugin 'daisyui' {
+  themes: false;
+}
+
+@plugin 'daisyui/theme' {
+  name: 'topazdev';
+  default: true;
+  prefersdark: false;
+  color-scheme: light;
+
+  --color-base-100: #ffffff;
+  --color-base-200: #f2f2f2;
+  --color-base-300: #e0e0e0;
+  --color-base-content: #27292f;
+  --color-primary: #2e3144;
+  --color-primary-content: #ffffff;
+  --color-secondary: #8a0036;
+  --color-secondary-content: #ffffff;
+  --color-accent: #008ed7;
+  --color-accent-content: #ffffff;
+  --color-neutral: #27292f;
+  --color-neutral-content: #f2f2f2;
+  --color-info: #008ed7;
+  --color-info-content: #ffffff;
+  --color-success: #219653;
+  --color-success-content: #ffffff;
+  --color-warning: #f0c300;
+  --color-warning-content: #27292f;
+  --color-error: #d32300;
+  --color-error-content: #ffffff;
+
+  --radius-selector: 1rem;
+  --radius-field: 0.75rem;
+  --radius-box: 1rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
+}
+
+/* Couleurs TopazDev (cf. v7/colors.css) */
+@theme {
+  --color-td-dark: #27292f;
+  --color-td-ultragrey: #4f4f4f;
+  --color-td-grey: #828282;
+  --color-td-lightgrey: #bdbdbd;
+  --color-td-lightwhite: #e0e0e0;
+  --color-td-smoothwhite: #f2f2f2;
+  --color-td-white: #ffffff;
+
+  --color-td-ultradarkblue: #2e3144;
+  --color-td-darkblue: #2f3195;
+  --color-td-blue: #008ed7;
+  --color-td-lightblue: #93cbeb;
+
+  --color-td-green: #219653;
+  --color-td-red: #d32300;
+  --color-td-spinelle: #8a0036;
+}
+
+/* Fond et couleur du texte : fournis par le thème daisyUI (base-100 / base-content) */
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}

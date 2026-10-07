@@ -1,0 +1,33 @@
+/*=========================
+==== TopazDev Icon Bar ====
+===========================*/
+
+.icon-bar {
+  width: 100%;
+	height: auto;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 16.6%;
+  text-align: center;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 14px;
+	text-decoration: none;
+}
+
+.icon-bar img{
+	width: 50%;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}

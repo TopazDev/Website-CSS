@@ -1,0 +1,132 @@
+/*========= Couleurs ==========
+-------------------------------
+$TPD_lime: #62ac19;
+$TPD_green: #4b5e25;
+$TPD_lightgreen: #5DC173;
+$TPD_ultralightgreen: #B2FFC3;
+$TPD_vert: #41a55a;
+
+$TPD_blue: #2f3195;
+$TPD_cyan: #167b8c;
+$TPD_lightblue: #258dc9;
+$TPD_darkblue: #2f3195;
+$TPD_ultradarkblue: rgb(46, 49, 68);
+
+$TPD_white: #ffffff;
+$TPD_lightwhite: #d1d7d8;
+
+$TPD_red: #d32300;
+$TPD_ultrared: #e44d26;
+
+$TPD_orange: #e36501;
+
+$TPD_yellow: #f2b117;
+$TPD_ble: #f0c300;
+
+$TPD_purple: #6821a0;
+$TPD_violet: #93278F;
+$TPD_magenta: #ac31a3;
+
+$TPD_brown: #633d20;
+$TPD_dark: #27292f;
+$TPD_black: #000000;
+
+$TPD_grey: #424558;
+-------------------------------
+*/
+
+.lime{
+  color: #62ac19;
+}
+
+.lightgreen{
+  color: #5DC173;
+}
+
+.ultralightgreen{
+  color: #B2FFC3;
+}
+
+.green{
+  color: #4b5e25;
+}
+
+.vert{
+  color: #41a55a;
+}
+
+.blue{
+  color: #008ed7;
+}
+
+.cyan{
+  color: #167b8c;
+}
+
+.lightblue{
+  color: #258dc9;
+}
+
+.darkblue{
+  color: #2f3195;
+}
+
+.ultradarkblue{
+  color: rgb(46, 49, 68);
+}
+
+.white{
+  color: white;
+}
+
+.lightwhite{
+  color: #d1d7d8;
+}
+
+.red{
+  color: #d32300;
+}
+
+.ultrared{
+  color: #e44d26;
+}
+
+.orange{
+  color: #e36501;
+}
+
+.yellow{
+  color: #f2b117;
+}
+
+.ble{
+  color: #f0c300;
+}
+
+.purple{
+  color: #6821a0;
+}
+
+.violet{
+  color: #93278F;
+}
+
+.magenta{
+  color: #ac31a3;
+}
+
+.brown{
+  color: #633d20;
+}
+
+.dark{
+  color: #27292f;
+}
+
+.black{
+  color: black;
+}
+
+.grey{
+  color: #424558;
+}

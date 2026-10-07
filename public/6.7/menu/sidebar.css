@@ -1,0 +1,95 @@
+/*========================
+==== TopazDev SideBar ====
+==========================*/
+/*===== SideBar =====*/
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-right: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*===== Recherche =====*/
+
+.sideRecherche {
+  width: 0;
+  position: fixed;
+  z-index: 200;
+  top: 60px;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0s;
+  padding-top: 60px;
+}
+
+.sideRecherche a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sideRecherche a:hover {
+  color: #f1f1f1;
+}
+
+.sideRecherche .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sideRecherche {padding-top: 15px;}
+  .sideRecherche a {font-size: 18px;}
+}
+
+
+.menu_bouton_mobile{
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	border: none;
+	cursor: pointer;
+	overflow: hidden;
+	float: left;
+	width: 16.6%;
+	text-align: center;
+	padding: 7px 0;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}

@@ -1,0 +1,107 @@
+/*========= Couleurs ==========
+-------------------------------
+#62ac19   Concrete lime
+#4b5e25   Concrete green
+#2f3195   Concrete blue
+#167b8c   Concrete cyan
+#258dc9   Concrete light blue
+#d1d7d8   Concrete white
+#922222   Concrete red
+#e36501   Concrete orange
+#f2b117   Concrete yellow
+#6821a0   Concrete purple
+#ac31a3   Concrete magenta
+#633d20   Concrete brown
+-------------------------------
+#f0c300   Menu blé
+#d32300   Menu rouge
+#008ed7   Menu bleu
+#41a55a   Menu vert
+#27292f   Menu dark
+#93278F   Menu violet
+-------------------------------
+*/
+
+.background_lime{
+  background-color: #62ac19;
+}
+
+.background_green{
+  background-color: #4b5e25;
+}
+
+.background_vert{
+  background-color: #41a55a;
+}
+
+.background_blue{
+  background-color: #008ed7;
+}
+
+.background_cyan{
+  background-color: #167b8c;
+}
+
+.background_lightblue{
+  background-color: #258dc9;
+}
+
+.background_darkblue{
+  background-color: #2f3195;
+}
+
+.background_ultradarkblue{
+  background-color: rgb(46, 49, 68);
+}
+
+.background_white{
+  background-color: white;
+}
+
+.background_lightwhite{
+  background-color: #d1d7d8;
+}
+
+.background_red{
+  background-color: #922222;
+}
+
+.background_ultrared{
+  background-color: #e44d26;
+}
+
+.background_orange{
+  background-color: #e36501;
+}
+
+.background_yellow{
+  background-color: #f2b117;
+}
+
+.background_ble{
+  background-color: #f0c300;
+}
+
+.background_purple{
+  background-color: #6821a0;
+}
+
+.background_magenta{
+  background-color: #ac31a3;
+}
+
+.background_brown{
+  background-color: #633d20;
+}
+
+.background_dark{
+  background-color: #27292f;
+}
+
+.background_black{
+  background-color: black;
+}
+
+.background_gris{
+  background-color: #424558;
+}
