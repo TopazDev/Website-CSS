@@ -25,7 +25,8 @@ export default function Navbar() {
                     <img src="/images/topazdev.png" alt="logo TopazDev" className="h-5 min-[360px]:h-6 sm:h-8" />
                 </a>
                 <a href="https://spinelle.eu" className="tooltip tooltip-left" data-tip="Aller sur Spinelle Galaxie">
-                    <img src="https://dl.topazdev.fr/stock/images/web/spinelle_galaxie.png" alt="Spinelle Galaxie" className="h-5 min-[360px]:h-6 sm:h-8" />
+                    <img src="/images/spinelle_galaxie.png" alt="Spinelle Galaxie" className="hidden sm:inline h-5 min-[360px]:h-6 sm:h-8" />
+                    <img src="/images/galaxie.png" alt="Spinelle Galaxie" className="inline sm:hidden h-5 min-[360px]:h-6 sm:h-8" />
                 </a>
             </div>
         </nav>

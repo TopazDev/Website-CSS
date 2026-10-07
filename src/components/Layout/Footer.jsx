@@ -8,7 +8,7 @@ export default function Footer() {
         <>
             <footer className="footer footer-horizontal bg-base-200 text-base-content items-center p-4 m-3 w-auto rounded-3xl">
                 <aside className="grid-flow-col items-center">
-                    <img src="/images/topazdev.png" alt="logo TopazDev" className="h-8" />
+                    <img src="/images/topazdev.png" alt="logo TopazDev" className="h-5 min-[360px]:h-6 sm:h-8" />
                     <span className='flex items-center gap-1.5'>
                         <FontAwesomeIcon icon="far fa-copyright" size="md" />
                         <span className=''>{HTMLyear}</span>
