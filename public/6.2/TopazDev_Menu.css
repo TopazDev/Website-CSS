@@ -1,0 +1,339 @@
+/*===========================
+=== TopazDev Menu Desktop ===
+=============================*/
+
+nav{
+	width: 100%;
+	background-color: #424558;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+nav li{
+	list-style-type: none;
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+nav li:hover a{
+	padding: 15px 30px 20px 30px;
+	color: #FFF;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #FFF;
+	vertical-align: middle;
+}
+
+.menu-horizontal{
+	z-index: 100;
+	width: 100%;
+	position: fixed;
+  right: 0;
+  top: 0%;
+}
+
+.sousmenu-horizontal{
+	margin-top: 66px;
+	z-index: 99;
+	width: 100%;
+	position: fixed;
+  right: 0;
+	top: 0%;
+}
+
+.menu:hover{
+	background-color: rgba(000, 112, 192, 0.15);
+	color: #FFF;
+}
+
+/*---------------------
+Menu Bordure Horizontal
+-----------------------*/
+
+.menu-h-logo a:hover{
+	border-top: 5px solid rgba(0,0,0,0);
+}
+
+.menu-h-logo img, .menu-h-logo-link img{
+	display: inline-block;
+	margin: 17px;
+	margin-left: 25px;
+}
+
+.menu-h-lime:hover{
+	border-top: 5px solid #62ac19;
+}
+
+.menu-h-green:hover{
+	border-top: 5px solid #4b5e25;
+}
+
+.menu-h-vert:hover{
+	border-top: 5px solid #41a55a;
+}
+
+.menu-h-blue:hover{
+	border-top: 5px solid #008ed7;
+}
+
+.menu-h-cyan:hover{
+	border-top: 5px solid #167b8c;
+}
+
+.menu-h-lightblue:hover{
+	border-top: 5px solid #258dc9;
+}
+
+.menu-h-darkblue:hover{
+	border-top: 5px solid #2f3195;
+}
+
+.menu-h-white:hover{
+	border-top: 5px solid white;
+}
+
+.menu-h-lightwhite:hover{
+	border-top: 5px solid #d1d7d8;
+}
+
+.menu-h-red:hover{
+	border-top: 5px solid #922222;
+}
+
+.menu-h-orange:hover{
+	border-top: 5px solid #e36501;
+}
+
+.menu-h-yellow:hover{
+	border-top: 5px solid #f0c300;
+}
+
+.menu-h-ble:hover{
+	border-top: 5px solid #f0c300;
+}
+
+.menu-h-purple:hover{
+	border-top: 5px solid #6821a0;
+}
+
+.menu-h-magenta:hover{
+	border-top: 5px solid #ac31a3;
+}
+
+.menu-h-brown:hover{
+	border-top: 5px solid #633d20;
+}
+
+.menu-h-dark:hover{
+	border-top: 5px solid #27292f;
+}
+
+.menu-h-black:hover{
+	border-top: 5px solid black;
+}
+
+/*-------------------
+Menu Bordure Vertical
+---------------------*/
+
+.menu-v-lime:hover{
+	border-left: 5px solid #62ac19;
+}
+
+.menu-v-green:hover{
+	border-left: 5px solid #4b5e25;
+}
+
+.menu-v-vert:hover{
+	border-left: 5px solid #41a55a;
+}
+
+.menu-v-blue:hover{
+	border-left: 5px solid #008ed7;
+}
+
+.menu-v-cyan:hover{
+	border-left: 5px solid #167b8c;
+}
+
+.menu-v-lightblue:hover{
+	border-left: 5px solid #258dc9;
+}
+
+.menu-v-darkblue:hover{
+	border-left: 5px solid #2f3195;
+}
+
+.menu-v-white:hover{
+	border-left: 5px solid white;
+}
+
+.menu-v-lightwhite:hover{
+	border-left: 5px solid #d1d7d8;
+}
+
+.menu-v-red:hover{
+	border-left: 5px solid #922222;
+}
+
+.menu-v-orange:hover{
+	border-left: 5px solid #e36501;
+}
+
+.menu-v-yellow:hover{
+	border-left: 5px solid #f0c300;
+}
+
+.menu-v-ble:hover{
+	border-left: 5px solid #f0c300;
+}
+
+.menu-v-purple:hover{
+	border-left: 5px solid #6821a0;
+}
+
+.menu-v-magenta:hover{
+	border-left: 5px solid #ac31a3;
+}
+
+.menu-v-brown:hover{
+	border-left: 5px solid #633d20;
+}
+
+.menu-v-dark:hover{
+	border-left: 5px solid #27292f;
+}
+
+.menu-v-black:hover{
+	border-left: 5px solid black;
+}
+
+/*=========================
+=== TopazDev Menu Touch ===
+===========================*/
+
+.menu-touch {
+  width: 100%;
+	height: auto;
+  overflow: auto;
+}
+
+.menu-touch a {
+  float: left;
+  width: 35%;
+  text-align: center;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+  color: white;
+	text-decoration: none;
+}
+
+.menu-touch a:hover {
+  background-color: #000;
+}
+
+.menu-touch img{
+	width: 100%;
+}
+
+/*==========================
+= TopazDev Sous-Menu Touch =
+============================*/
+
+#sousmenu li a {
+ display:block;
+ width: 150px;
+ height: 19px;
+ padding: 20px 20px;
+ color:white;
+ text-decoration:none;
+ }
+
+#sousmenu li a:hover {
+ color:#FFD700;
+ }
+
+#sousmenu ul li ul {
+ display:none;
+ margin-top: 10px;
+ }
+
+#sousmenu ul li:hover ul {
+ display:block;
+ }
+
+#sousmenu li:hover ul li {
+ float:none;
+ }
+
+#sousmenu li ul {
+ position:absolute;
+ }
+
+/*=========================
+==== TopazDev Icon Bar ====
+===========================*/
+
+.icon-bar {
+  width: 100%;
+	height: auto;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 16.6%;
+  text-align: center;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 14px;
+	text-decoration: none;
+}
+
+.icon-bar img{
+	width: 50%;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+/*=======================
+==== TopazDev Footer ====
+=========================*/
+
+.topaz_footer{
+	width: 100%;
+	/*background-color: #424558;*/
+	height: 60px;
+	color: #FFF;
+	text-align: center;
+	float: left;
+	position: absolute;
+}
+
+.topaz_footer-text{
+	margin-top: 20px;
+}
+
+.topaz_footer-text strong{
+	color: #f0c300;
+}

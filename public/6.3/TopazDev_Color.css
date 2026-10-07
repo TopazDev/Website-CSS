@@ -1,0 +1,119 @@
+/*========= Couleurs ==========
+-------------------------------
+#62ac19   Concrete lime
+#4b5e25   Concrete green
+#2f3195   Concrete blue
+#167b8c   Concrete cyan
+#258dc9   Concrete light blue
+#d1d7d8   Concrete white
+#922222   Concrete red
+#e36501   Concrete orange
+#f2b117   Concrete yellow
+#6821a0   Concrete purple
+#ac31a3   Concrete magenta
+#633d20   Concrete brown
+-------------------------------
+#f0c300   Menu blé
+#d32300   Menu rouge
+#008ed7   Menu bleu
+#41a55a   Menu vert
+#27292f   Menu dark
+#93278F   Menu violet
+-------------------------------
+*/
+
+.lime{
+  color: #62ac19;
+}
+
+.lightgreen{
+  color: #5DC173;
+}
+
+.ultralightgreen{
+  color: #B2FFC3;
+}
+
+.green{
+  color: #4b5e25;
+}
+
+.vert{
+  color: #41a55a;
+}
+
+.blue{
+  color: #008ed7;
+}
+
+.cyan{
+  color: #167b8c;
+}
+
+.lightblue{
+  color: #258dc9;
+}
+
+.darkblue{
+  color: #2f3195;
+}
+
+.ultradarkblue{
+  color: rgb(46, 49, 68);
+}
+
+.white{
+  color: white;
+}
+
+.lightwhite{
+  color: #d1d7d8;
+}
+
+.red{
+  color: #d32300;
+}
+
+.ultrared{
+  color: #e44d26;
+}
+
+.orange{
+  color: #e36501;
+}
+
+.yellow{
+  color: #f2b117;
+}
+
+.ble{
+  color: #f0c300;
+}
+
+.purple{
+  color: #6821a0;
+}
+
+.violet{
+  color: #93278F;
+}
+
+.magenta{
+  color: #ac31a3;
+}
+
+.brown{
+  color: #633d20;
+}
+
+.dark{
+  color: #27292f;
+}
+
+.black{
+  color: black;
+}
+
+.grey{
+  color: #424558;
+}

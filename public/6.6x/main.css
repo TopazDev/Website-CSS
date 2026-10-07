@@ -1,0 +1,104 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1, h2{
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  margin: 0px;
+  padding-top: 10px;
+}
+
+/*---------------------
+Images
+-----------------------*/
+#image{
+  padding: 20px;
+  width: 60%;
+}
+
+.image{
+  width: 30%;
+  padding: 10px;
+}
+
+.image2{
+  width: 700px;
+  padding: 20px;
+}
+
+.pimage{
+  vertical-align: middle;
+  width: 500px;
+  padding: 80px;
+}
+
+/*---------------------
+Paragraphe
+-----------------------*/
+p{
+  color: white;
+}
+
+.paragraphe,
+h3{
+  margin: 25px 100px 10px 100px; /*Top - Right - Bottom - Left*/
+  margin-top: 50px;
+}
+
+.paragraphe2{
+  margin: 50px 0px 10px 0px; /*Top - Right - Bottom - Left*/
+  width: 500px;
+}
+
+.paragraphe3{
+  margin: 25px 50px 25px 50px; /*Top - Right - Bottom - Left*/
+}
+
+.paragraphe4{
+  display: table-cell; /* comportement visuel de cellule */
+  vertical-align: middle;
+}
+
+/*---------------------
+Lien
+-----------------------*/
+/* unvisited link */
+.lien a:link {
+  color: green;
+}
+
+/* visited link */
+.lien a:visited {
+  color: #f0c300;
+}
+
+/* mouse over link */
+.lien a:hover {
+  color: #f2b117;
+}
+
+/* selected link */
+.lien a:active {
+  color: lightblue;
+}
+
+.invlink{
+  text-decoration: none;
+}
+
+tr td a:link {
+  color: #62ac19;
+}
+
+/* visited link */
+tr td a:visited {
+  color: #62ac19;
+}
+
+/* mouse over link */
+tr td a:hover {
+  color: #f2b117;
+}

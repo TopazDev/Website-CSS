@@ -1,0 +1,185 @@
+/*========= Couleurs ==========
+-------------------------------
+$TD_dark: #27292f;
+$TD_ultragrey: #4F4F4F;
+$TD_grey: #828282;
+$TD_lightgrey: #BDBDBD;
+$TD_lightwhite: #E0E0E0;
+$TD_smoothwhite: #F2F2F2;
+
+$TD_lightwhite2: #d1d7d8;
+$TD_white: #ffffff;
+
+$TD_lime: #62ac19;
+$TD_green: #219653;
+$TD_green2: #27AE60;
+$TD_lightgreen: #6FCF97;
+$TD_ultralightgreen: #B2FFC3;
+
+$TD_ultradarkblue: #2E3144;
+$TD_darkblue: #2f3195;
+$TD_blue: #008ed7;
+$TD_lightblue: #93cbeb;
+$TD_cyan: #167b8c;
+
+$TD_ultrapurple: #6821a0;
+$TD_purple: #9B51E0;
+$TD_lightpurple: #BB6BD9;
+$TD_ultramagenta: #93278F;
+$TD_magenta: #ac31a3;
+
+$TD_red: #d32300;
+$TD_lightred: #EB5757;
+$TD_ultraorange: #E44D26;
+$TD_orange: #e36501;
+$TD_lightorange: #F2994A;
+
+$TD_yellow: #F0C300;
+$TD_lightyellow: #F2C94C;
+
+$TD_brown: #633d20;
+$TD_black: #000000;
+-------------------------------
+*/
+
+.dark{
+  color: #27292f;
+}
+
+.ultragrey{
+  color: #4F4F4F;
+}
+
+.grey{
+  color: #828282;
+}
+
+.lightgrey{
+  color: #BDBDBD;
+}
+
+.lightwhite{
+  color: #E0E0E0;
+}
+
+.smoothwhite{
+  color: #F2F2F2;
+}
+
+/*---------*/
+
+.lightwhite2{
+  color: #d1d7d8;
+}
+
+.white{
+  color: #ffffff;
+}
+
+/*---------*/
+
+.lime{
+  color: #62ac19;
+}
+
+.green{
+  color: #219653;
+}
+
+.green2{
+  color: #27AE60;
+}
+
+.lightgreen{
+  color: #6FCF97;
+}
+
+.ultralightgreen{
+  color: #B2FFC3;
+}
+
+/*---------*/
+
+.ultradarkblue{
+  color: #2E3144;
+}
+
+.darkblue{
+  color: #2f3195;
+}
+
+.blue{
+  color: #008ed7;
+}
+
+.lightblue{
+  color: #93cbeb;
+}
+
+.cyan{
+  color: #167b8c;
+}
+
+/*---------*/
+
+.ultrapurple{
+  color: #6821a0;
+}
+
+.purple{
+  color: #9B51E0;
+}
+
+.lightpurple{
+  color: #BB6BD9;
+}
+
+.ultramagenta{
+  color: #93278F;
+}
+
+.magenta{
+  color: #ac31a3;
+}
+
+/*---------*/
+
+.red{
+  color: #d32300;
+}
+
+.lightred{
+  color: #EB5757;
+}
+
+.ultraorange{
+  color: #E44D26;
+}
+
+.orange{
+  color: #e36501;
+}
+
+.lightorange{
+  color: #F2994A;
+}
+
+/*---------*/
+
+.yellow{
+  color: #F0C300;
+}
+
+.lightyellow{
+  color: #F2C94C;
+}
+
+/*---------*/
+
+.brown{
+  color: #633d20;
+}
+
+.black{
+  color: #000000;
+}

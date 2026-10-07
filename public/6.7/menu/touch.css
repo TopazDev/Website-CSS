@@ -1,0 +1,71 @@
+/*=========================
+======= Menu Touch ========
+===========================*/
+
+.menu-touch {
+  width: 100%;
+	height: auto;
+  overflow: auto;
+}
+
+.menu-touch a {
+  float: left;
+  width: 35%;
+  text-align: center;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+  color: white;
+	text-decoration: none;
+}
+
+.menu-touch a:hover {
+  background-color: #000;
+}
+
+.menu-touch img{
+	width: 100%;
+}
+
+/*==========================
+===== Sous-Menu Touch ======
+============================*/
+
+#sousmenu li a {
+ display:block;
+ width: 150px;
+ height: 19px;
+ padding: 20px 20px;
+ color:white;
+ text-decoration:none;
+}
+
+#sousmenu ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#sousmenu li {
+  list-style-type: none;
+  float: left;
+}
+
+#sousmenu li a:hover {
+ color:#FFD700;
+}
+
+#sousmenu ul li ul {
+ display:none;
+ margin-top: 10px;
+}
+
+#sousmenu ul li:hover ul {
+ display:block;
+}
+
+#sousmenu li:hover ul li {
+ float:none;
+}
+
+#sousmenu li ul {
+ position:absolute;
+}

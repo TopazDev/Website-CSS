@@ -1,0 +1,18 @@
+#filtre{
+	padding: 10px 0px;
+	margin: 0px;
+	float: left;
+	width: 100%;
+}
+
+#filtre li{
+	list-style-type: none;
+	float: left;
+	margin-bottom: 15px;
+	margin-right: 20px;
+	vertical-align: middle;
+}
+
+#filtre h1{
+	text-align: center;
+}

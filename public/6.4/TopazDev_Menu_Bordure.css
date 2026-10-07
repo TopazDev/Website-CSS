@@ -1,0 +1,199 @@
+/*---------------------
+Menu Bordure Horizontal
+-----------------------*/
+
+.menu-h-lime:hover{
+	border-top: 5px solid #62ac19;
+}
+
+.menu-h-lightgreen:hover{
+	border-top: 5px solid #5DC173;
+}
+
+.menu-h-ultralightgreen:hover{
+	border-top: 5px solid #B2FFC3;
+}
+
+.menu-h-green:hover{
+	border-top: 5px solid #4b5e25;
+}
+
+.menu-h-vert:hover{
+	border-top: 5px solid #41a55a;
+}
+
+.menu-h-blue:hover{
+	border-top: 5px solid #008ed7;
+}
+
+.menu-h-cyan:hover{
+	border-top: 5px solid #167b8c;
+}
+
+.menu-h-lightblue:hover{
+	border-top: 5px solid #258dc9;
+}
+
+.menu-h-darkblue:hover{
+	border-top: 5px solid #2f3195;
+}
+
+.menu-h-ultradarkblue:hover{
+	border-top: 5px solid rgb(46, 49, 68);
+}
+
+.menu-h-white:hover{
+	border-top: 5px solid white;
+}
+
+.menu-h-lightwhite:hover{
+	border-top: 5px solid #d1d7d8;
+}
+
+.menu-h-red:hover{
+	border-top: 5px solid #922222;
+}
+
+.menu-h-ultrared:hover{
+	border-top: 5px solid #e44d26;
+}
+
+.menu-h-orange:hover{
+	border-top: 5px solid #e36501;
+}
+
+.menu-h-yellow:hover{
+	border-top: 5px solid #f0c300;
+}
+
+.menu-h-ble:hover{
+	border-top: 5px solid #f0c300;
+}
+
+.menu-h-purple:hover{
+	border-top: 5px solid #6821a0;
+}
+
+.menu-h-violet:hover{
+  border-top: 5px solid #93278F;
+}
+
+.menu-h-magenta:hover{
+	border-top: 5px solid #ac31a3;
+}
+
+.menu-h-brown:hover{
+	border-top: 5px solid #633d20;
+}
+
+.menu-h-dark:hover{
+	border-top: 5px solid #27292f;
+}
+
+.menu-h-black:hover{
+	border-top: 5px solid black;
+}
+
+.menu-h-grey:hover{
+	border-top: 5px solid #424558;
+}
+
+/*-------------------
+Menu Bordure Vertical
+---------------------*/
+
+.menu-v-lime:hover{
+	border-left: 5px solid #62ac19;
+}
+
+.menu-v-lightgreen:hover{
+	border-left: 5px solid #5DC173;
+}
+
+.menu-v-ultralightgreen:hover{
+	border-left: 5px solid #B2FFC3;
+}
+
+.menu-v-green:hover{
+	border-left: 5px solid #4b5e25;
+}
+
+.menu-v-vert:hover{
+	border-left: 5px solid #41a55a;
+}
+
+.menu-v-blue:hover{
+	border-left: 5px solid #008ed7;
+}
+
+.menu-v-cyan:hover{
+	border-left: 5px solid #167b8c;
+}
+
+.menu-v-lightblue:hover{
+	border-left: 5px solid #258dc9;
+}
+
+.menu-v-darkblue:hover{
+	border-left: 5px solid #2f3195;
+}
+
+.menu-v-ultradarkblue:hover{
+	border-left: 5px solid rgb(46, 49, 68);
+}
+
+.menu-v-white:hover{
+	border-left: 5px solid white;
+}
+
+.menu-v-lightwhite:hover{
+	border-left: 5px solid #d1d7d8;
+}
+
+.menu-v-red:hover{
+	border-left: 5px solid #922222;
+}
+
+.menu-v-ultrared:hover{
+	border-left: 5px solid #e44d26;
+}
+
+.menu-v-orange:hover{
+	border-left: 5px solid #e36501;
+}
+
+.menu-v-yellow:hover{
+	border-left: 5px solid #f0c300;
+}
+
+.menu-v-ble:hover{
+	border-left: 5px solid #f0c300;
+}
+
+.menu-v-purple:hover{
+	border-left: 5px solid #6821a0;
+}
+
+.menu-v-violet:hover{
+  border-left: 5px solid #93278F;
+}
+
+.menu-v-magenta:hover{
+	border-left: 5px solid #ac31a3;
+}
+
+.menu-v-brown:hover{
+	border-left: 5px solid #633d20;
+}
+
+.menu-v-dark:hover{
+	border-left: 5px solid #27292f;
+}
+
+.menu-v-black:hover{
+	border-left: 5px solid black;
+}
+
+.menu-v-grey:hover{
+	border-left: 5px solid #424558;
+}

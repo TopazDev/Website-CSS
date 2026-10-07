@@ -1,0 +1,155 @@
+/*========= Couleurs ==========
+-------------------------------
+$TPD_lime: #62ac19;
+$TPD_green: #4b5e25;
+$TPD_lightgreen: #5DC173;
+$TPD_ultralightgreen: #B2FFC3;
+$TPD_vert: #41a55a;
+
+$TPD_blue: #2f3195;
+$TPD_cyan: #167b8c;
+$TPD_lightblue: #258dc9;
+$TPD_darkblue: #2f3195;
+$TPD_ultradarkblue: rgb(46, 49, 68);
+
+$TPD_white: #ffffff;
+$TPD_lightwhite: #d1d7d8;
+
+$TPD_red: #d32300;
+$TPD_ultrared: #e44d26;
+
+$TPD_orange: #e36501;
+
+$TPD_yellow: #f2b117;
+$TPD_ble: #f0c300;
+
+$TPD_purple: #6821a0;
+$TPD_violet: #93278F;
+$TPD_magenta: #ac31a3;
+
+$TPD_brown: #633d20;
+$TPD_dark: #27292f;
+$TPD_black: #000000;
+
+$TPD_grey: #424558;
+-------------------------------
+*/
+.background{
+  background-position: center;
+  background-size: cover;
+  margin: 2px 0;
+}
+
+/*=====================================
+========== Backgroung Color ===========
+=======================================*/
+.background_lime{
+  background-color: #62ac19;
+}
+
+.background_lightgreen{
+  background-color: #5DC173;
+}
+
+.background_ultralightgreen{
+  background-color: #B2FFC3;
+}
+
+.background_green{
+  background-color: #4b5e25;
+}
+
+.background_vert{
+  background-color: #41a55a;
+}
+
+.background_blue{
+  background-color: #008ed7;
+}
+
+.background_cyan{
+  background-color: #167b8c;
+}
+
+.background_lightblue{
+  background-color: #258dc9;
+}
+
+.background_darkblue{
+  background-color: #2f3195;
+}
+
+.background_ultradarkblue{
+  background-color: rgb(46, 49, 68);
+}
+
+.background_white{
+  background-color: white;
+}
+
+.background_lightwhite{
+  background-color: #d1d7d8;
+}
+
+.background_red{
+  background-color: #922222;
+}
+
+.background_ultrared{
+  background-color: #e44d26;
+}
+
+.background_orange{
+  background-color: #e36501;
+}
+
+.background_yellow{
+  background-color: #f2b117;
+}
+
+.background_ble{
+  background-color: #f0c300;
+}
+
+.background_purple{
+  background-color: #6821a0;
+}
+
+.background_violet{
+  background-color: #93278F;
+}
+
+.background_magenta{
+  background-color: #ac31a3;
+}
+
+.background_brown{
+  background-color: #633d20;
+}
+
+.background_dark{
+  background-color: #27292f;
+}
+
+.background_black{
+  background-color: black;
+}
+
+.background_grey{
+  background-color: #424558;
+}
+
+/*=====================================
+=========== Backgroung BLur ===========
+=======================================*/
+.background_blurwhite_25{
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.background_blurwhite{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.background_blurwhite_75{
+  background-color: rgba(255, 255, 255, 0.75);
+}
